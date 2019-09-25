@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<title>fb</title>
+	<style type="text/css">
+		html body{
+			margin:0px;
+		}
+	</style>
+</head>
+<body>
+	<table width="100%" cellspacing="0">
+		<tr bgcolor="#3b5998">
+			<td>
+				<img src="image/logo.png" style="margin-left: 120px;">
+				<span style="margin-top: 25px;">
+				<button style="border-color:#28e022;color: white;" class="btn btn-success">Sign Up</button>
+			 	</span>
+			</td>
+		</tr>
+	</table>
+	<table width="100%" cellspacing="0">
+		<tr bgcolor="#ced5d9" height="600px">
+				<td>
+				<fieldset style="background-color: white; width:800px;height: 350px; margin-left: 300px; border-color: white;">
+				<h3 >Password Change</h3>
+                <hr>
+           
+            	<!-- {% csrf_token %} -->
+                <div >
+					<label class="control-label" style="margin-left: 80px;">Password:</label>
+					
+					<input type="password" placeholder="Enter your password" style="margin-left: 150px;" >
+				    
+				</div>
+				<br>
+			    
+				
+               <div>
+					<label class=" control-label" style="margin-left: 80px;" >New Password:</label>
+					
+						<input type="password"  placeholder="Enter your New password" style="margin-left: 120px;">
+				   
+			    </div>
+			    <br>
+			    
+
+			    <div>
+					<label class="control-label" style="margin-left: 80px;">Re-enter new Password:</label>
+					
+						<input type="password"  placeholder="Re-Enter your New password" style="margin-left: 60px;">
+				  
+			    </div>
+			   
+			    
+                <input type="checkbox" name="keep me logged in" style="margin-left: 310px;margin-top: 35px;">keep me logged in
+                  <br>
+                <input type="sumbit" value="Udate password" style="color: white;border-color: #3b5998;margin-left: 300px;margin-top: 10px;" class="btn btn-primary">
+            </form>
+
+                  </fieldset>
+
+		</tr>
+		
+			
+		</table>
+		
+</body>
+</html>
